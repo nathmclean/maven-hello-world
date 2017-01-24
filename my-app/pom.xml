@@ -11,7 +11,16 @@
   <properties>
       <!-- This property will be set by the Maven Dependency plugin -->
       <annotatedJdk>${org.checkerframework:jdk8:jar}</annotatedJdk>
-  </properties>
+	</properties>
+	  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>9ec075163f3a-releases</name>
+        <url>http://localhost:8080/artifactory/ext-release-local</url>
+    </repository>
+  </distributionManagement>
+
 
   <dependencies>
     <dependency>
