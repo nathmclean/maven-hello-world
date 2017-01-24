@@ -17,7 +17,7 @@
     <repository>
         <id>central</id>
         <name>libs-release-local</name>
-        <url>http://localhost:8080/artifactory/libs-release-local</url>
+        <url>http://172.17.0.2:8080/artifactory/libs-release-local</url>
     </repository>
   </distributionManagement>
 
